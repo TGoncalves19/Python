@@ -62,4 +62,22 @@
 #total = reais / dolar
 #print('Você tem US$ {:.2f} dólares'.format(total))
 
-# Desafio 011 - Faça um programa que leia a largura e a altura de uma parede em metros, calcule a sua área e a quantidade de tinta necessária para pintá-la, sabendo que cada litro de tinta pinta uma área de 2m².
+#Desafio 011 - Faça um programa que leia a largura e a altura de uma parede em metros, calcule a sua área e a quantidade de tinta necessária para pintá-la, sabendo que cada litro de tinta pinta uma área de 2m².
+#altura = float(input('Digite a altuta (m): '))
+#largura = float(input('Digite a largura (m): '))
+#rendimento = float(input('Digite o redimento da tinta conforme o fabricante (m²): '))
+#area = altura * largura
+#area_pintura = area / rendimento
+#print('A altura da parede é: {} m, a largura da parede é: {} m, no total de: {} m². \nA área de pintura é: {} m².'.format(altura, largura, area, area_pintura))
+
+#Desafio 012 - Faça um algoritmo que leia o preço de um produto e mostre seu novo novo preço com 5% de deconto.
+#valor_produto = float(input('Digite o valor de produto (R$): '))
+#desconto = float(input('Digite o desconto (%): '))
+#valor_novo = valor_produto - (valor_produto * (desconto / 100) )
+#print('O produto com desconto ficou em R$: {} reais'.format(valor_novo))
+
+#Desafio 013 - Faça um algoritmo que leia o sálario de um funcionário e mostre seu novo salário com 15% de aumento.
+salario = float(input('Digite o sálario atual (R$): '))
+salario_aumento = float(input('Digite o valor do reajuste (%): '))
+novo_salario = salario + (salario * (salario_aumento / 100))
+print('O sálario atual é (R$): {:.2f}, o reajuste previsto foi de (%): {:.0f}. \nO novo sálario é (R$): {:.2f} reais'.format(salario, salario_aumento, novo_salario))

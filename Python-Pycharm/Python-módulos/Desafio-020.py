@@ -2,5 +2,10 @@
 # dos alunos e mostre a ordem sorteada.
 
 import random
-aluno = random.randint(1, 4)
-print('O aluno sorteado é o número: {}.'.format(aluno))
+a1 = str(input('Primeiro aluno (a): '))
+a2 = str(input('Segundo Aluno (a): '))
+a3 = str(input('Terceiro Aluno (a): '))
+a4 = str(input('Quarto Aluno (a): '))
+aluno = [a1, a2, a3, a4]
+random.shuffle(aluno)
+print('A ordem para apresentação é: {}'.format(aluno))
